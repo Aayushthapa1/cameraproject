@@ -1,0 +1,156 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   
+}
+@font-face {
+    font-family: myfont;
+    src: url(font.ttf);
+}
+@font-face{
+    font-family: myfont3;
+    src: url(./IBMPlexMono-ExtraLight.ttf)
+}
+.Nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    display: flex;
+    text-decoration: none;
+    font-size: 200%;
+    color: orangered;
+    opacity: 85%;
+    margin: 1%;
+    font-family: serif;
+}
+a:hover {
+    display: flex;
+    text-decoration: none;
+    font-size: 200%;
+    color: black;
+    opacity: 80%;
+
+
+}
+h1 {
+    font-weight: lighter;
+    font-family: sans-serif;
+    transform: translate(-90%, 35%);
+    width: fit-content;
+}
+span {
+    color: orangered;
+    opacity: 85%;
+    opacity: 85%;
+}
+h2{
+   
+    width: fit-content;
+    margin: 10%;
+    font-family: myfont3;
+    font-size: 400%; 
+    transform: translate(62%, 0%);
+    }
+.circle{
+    background-color:rgb(244, 139, 61);
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    float: right;
+    margin: 10%;
+    scale: 350%;
+    transform: translate(-20%, -45%);
+}
+
+.text-1{
+   font-size: 140%;
+    width: fit-content;
+    display: flex;
+   transform: translate(99%, -700%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text-2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    transform: translate(13%, -700%);
+    font-size: 120%;
+}
+    
+
+    .text-3{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+        transform: translate(3%, -650%);
+        font-size: 120%;
+    }
+ .whole-text{
+    transform: translate(24%, 0%);
+    width: fit-content;
+ } 
+ .nischay-div{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color:rgb(244, 139, 61);
+    margin: 2%;  
+ }  
+ .nis-text{
+    transform: translate(-232%, 895%);
+    scale: 85%;
+    width: fit-content;
+    height: fit-content;
+   
+
+    
+ }
+ .piyush-div{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color:rgb(244, 139, 61);
+    transform: translate(7%, 16%);
+    
+    
+ }
+ .nischay{
+    display: flex;
+    justify-content: space-between;
+   
+ }
+ .ayush-div{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color:rgb(244, 139, 61);
+    transform: translate(-300%, 16%);
+    
+ }
+ .ankit-div{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color:rgb(244, 139, 61);
+    transform: translate(-135%, 17%);
+    
+ }
+ .piy-text{
+    transform: translate(44%, 158%); 
+    width: fit-content;
+    height: fit-content;
+    font-size: 86%;
+ }
+ .ayu-text{
+    transform: translate(62%, 158%); 
+    font-size: 89%;
+    width: fit-content;
+    font-size: 90%;
+    height: fit-content;
+ }
+ .text-ankit{
+    width: fit-content;
+   transform: translate(-770%, 148%);
+   font-size: 90%;
+   height: fit-content;
+ }
+
+

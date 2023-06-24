@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="../CSS/partyy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,700;1,200&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+             <a href="index.html"></a> 
+            <div class="nav-links">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="aboutus.html">ABOUT</a></li>
+                    <li><a href="gearhub.html">PRODUCTS</a></li>
+                    <li><a href="research.html">RESEARCH</a></li>
+                    <li><a href="Signup.html">SIGN UP</a></li>
+                    <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+                </ul>
+            </div>
+        </nav>
+        <div class="lamp-container">
+            <img src="../images/lamp.png" class="lamp">
+            <img src="../images/light.png" class="light" id="light">
+        </div>
+        <div class="text-box">
+            <h1>Gear <span>Up</span> Nepal</h1>
+            <p>Browse our collection today and discover the perfect camera to help you express your creativity <br> and
+                preserve memories that will last a lifetime.
+            </p>
+            <a href="gearhub.html" class="hero-btn">Visit Us to know more</a>
+            <a href="gearhub.html" class="expl">Explore More</a>
+        </div>
+        <script>
+            var btn = document.getElementById("btn");
+            var light = document.getElementById("light");
+            function toggleBtn()
+            {
+                btn.classList.toggle("active");
+                light.classList.toggle("on");
+            }
+        </script>
+    </section>
+</body>
+
+</html>

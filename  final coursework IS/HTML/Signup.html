@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="../CSS/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Source+Sans+Pro&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <ul class="ul">
+            <li><a href="part.html" class="nav">Gear Up Nepal</a></li>
+            <a href="#" id="popup"><button class="icons6">Register</button></a>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2 class="ln">Sign in to Continue</h2>
+        <div class="columns">
+            <h3 class=login><a href="index.html"><i class="fas fa-"></i></a></h3>
+            <form action="#" onsubmit="return Validation()">
+                <div class="rform-group">
+                    <label class="label1">Username</label>
+                    <br />
+                    <input type="text" name="user" class="form-control" id="user" autocomplete="off"><br>
+                    <span id="username" class="danger"></span>
+                </div>
+                <br />
+                <div class="rform-group">
+                    <label class="label1">Password:</label>
+                    <br />
+                    <input type="text" name="pass" class="form-control" id="pass" autocomplete="off"><br>
+                    <span id="password" class="danger"></span>
+                </div>
+                <div class="staylogged-container">
+                    <div class="staylogged">
+                        <span><input type="checkbox" class="checkbox"></input></span>
+                    </div>
+                    <div class="staylogged">
+                        <h5 class="lin">Stay Logged in</h5>
+                    </div>
+                    <div class="staylogged">
+                        <u class="linn">Forget your Password?</u>
+                    </div>
+
+                </div>
+                <input type="Submit" name="Submit" value="Submit" class="lbutton" autocomplete="off">
+            </form>
+        </div>
+        <br />
+        <a href="#" class="trouble">Trouble signing in?</a>
+        <div class="hrcontent">
+            <div class="hr1">
+                <hr>
+                </hr>
+            </div>
+            <div class="hr">
+                <h6>OR</h6>
+            </div>
+            <div class="hr2">
+                <hr>
+                </hr>
+            </div>
+        </div>
+        <div class="google-content">
+            <div class="fa-google-content">
+                <i class="fab fa-google"></i>
+            </div>
+            <div class="fa-google-content">
+                <h5>Continue with Google</h5>
+            </div>
+        </div>
+    </div>
+    <h4 class="copyright">aayushthapa&copy;2023 | Itahari International College</h4>
+    </div>
+    </div>
+
+    <div class="popupbox">
+        <div class="popup-content">
+            <a href="part.html"><i class="fas fa-times-circle"></i></a>
+            <h4>Create your account </h4>
+            <p class="easy">Registration is easy.</p>
+            <div class="register-content-container">
+                <!-- <h5>Create your account</h5>
+                <h6>Registration is easy</h6> -->
+                <div class="reg-container">
+                    <form action="#" onsubmit="return Validation()">
+                        <div class="form-reglabel">
+                            <label class="reguser">Username</label><br />
+                            <input type="text" name="user" class="form-controller" id="user" autocomplete="off">
+                            <span id="username" class="dangers"></span>
+                        </div>
+                        <div class="form-reglabel">
+                            <label class="reguser">Password</label><br/>
+                            <input type="text" name="pass" class="form-controller" id="pass" autocomplete="off">
+                            <span id="password" class="danger"></span>
+                        </div>
+                        <div class="form-reglabel">
+                            <label class="reguser">Confirm Password</label><br />
+                            <input type="text" name="conpass" class="form-controller" id="conpass" autocomplete="off">
+                            <span id="conpassword" class="danger"></span>
+                            <input type="Submit" name="Submit" value="Register" class="registerrbutton"
+                                autocomplete="off">
+                            <div class="hrcontent55">
+                                <div class="hr11">
+                                    <hr>
+                                    </hr>
+                                </div>
+                                <div class="hr33">
+                                    <h6>OR</h6>
+                                </div>
+                                <div class="hr22">
+                                    <hr>
+                                    </hr>
+                                </div>
+                            </div>
+                            <div class="google-content-register">
+                                <div class="fa-google-register">
+                                    <i class="fab fa-google"></i>
+                                </div>
+                                <div class="fa-google-register">
+                                    <h5>Continue with Google</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript" src="../JS/part.js"></script>
+
+</body>
+
+</html>

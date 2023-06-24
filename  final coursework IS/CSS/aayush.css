@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+.container {
+    background-color: #f3f5f8;
+    height:70px;
+    position: relative;
+}
+.navItems{
+    display:flex;
+    padding-top:20px;
+    padding-left:60px;
+
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 800;
+    color: #3d535f;
+    letter-spacing: 2px;
+    cursor: pointer text-trasnform uppercase;
+}
+
+b {
+    font-size: 70px;
+    color: bisque;
+}
+.navItems li {
+    list-style: none;
+    margin: 0 25px;
+}
+.navItems li a {
+    font-size: 20px;
+    color: #3d535f;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.fa-brands{
+    color: #3d535f;
+    font-size:20px;
+   
+}
+.fa-facebook{
+    margin-left:190px;
+}
+.fa-linkedin{
+    margin-left:30px;
+}
+.fa-twitter{
+    margin-left:30px;
+}
+.fa-instagram{
+    margin-left:30px;
+}
+.portfolio h4{
+   color:#3d535f;
+   font-size:30px;
+   margin-left:60px;
+   padding-top:130px;
+   font-size:70px;
+}
+.portfolio h3{
+    margin-left:60px;
+    margin-top:10px;
+    font-size:50px;
+ }
+ .portfolio p{
+    margin-left:60px;
+    margin-top:10px;
+ }
+.home{
+   margin-left:280px;
+}
+.portfolio-container{
+    display:flex;
+    position: relative;
+    background-color: #f3f5f8;
+
+}
+.topline { 
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #3d535f;
+ } 
+.noimg{
+    height:750px;
+    margin-left:300px;
+} 
+h1 {
+    display: block;
+    font-size: 50px;
+    font-weight: 900;
+    color: #3d535f;
+
+}
+
+.multitext {
+    color: black;
+    text-transform: capitalize;
+}
+
+p {
+    display: block;
+    width: 90%;
+    font-size: 1.2em;
+    color: #3d535f;
+}
+
+.btns {
+    width: 100%;
+    position: absolute;
+    left: 150px;
+}
+.downloadbutton{
+    display:flex;
+}
+.downloadbtn{
+    background-color: #3d535f;
+    height:50px;
+    width:150px;
+    margin-left:60px;
+    margin-top:20px;
+    border:none;
+    outline:none;
+    color:white;
+    border-radius:5px;
+}
+.hireme{
+    background-color: #3d535f;
+    height:50px;
+    width:100px;
+    margin-left:20px;
+    margin-top:20px;
+    border:none;
+    outline:none;
+    color:white;
+    border-radius:5px;
+}
+
+.no{
+    height: 1000px;
+    margin-left: 500px;
+}

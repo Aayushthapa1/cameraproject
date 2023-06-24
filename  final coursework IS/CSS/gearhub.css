@@ -1,0 +1,232 @@
+*{ /* customization for all page*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{ /* customizing h1 of all the pages*/
+  font-size: 48px;
+  line-height: 62px;
+  color: black;
+}
+h2{ /* customizing h2 of all the pages*/
+  font-size: 44px;
+  line-height: 52px;
+  color: black;
+}
+h4{  /* customizing h4 of all the pages*/
+  font-size: 18px;
+  color: black;
+
+}
+h6{ /* customizing h6 of all the pages*/
+  font-weight: 700;
+  font-size: 12px;
+}
+p{ /* customizing p of all the pages*/
+  font-size: 16px;
+  color: black;
+  margin: 15px 0 20px 0;
+
+}
+.section-m1{ /* customizing  margin of all the sections*/
+  margin: 40px 0;
+}
+.section-p1{ /* customizing padding of all the pages*/
+  padding:40px 80px;
+}
+button.normal{ /* generating button as normal so it can be used by sections/div having class normal*/
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color:black;
+  background-color:lightsteelblue;
+  border-radius: 4px;
+  cursor:pointer;
+  border:none;
+  outline: none;
+  transition:0.2s;
+}
+body{
+  width: 100%;
+}
+#nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:orangered;
+  padding: 50px,80px;
+  box-shadow: 0,5px,15px,rgba(0, 0, 0,0.06);
+  z-index:999;
+  position: sticky; /* to make nav bar sticky */
+  top: 0;
+  left: 0;
+}  
+#navigation{
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+  
+}
+#navigation li{
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+#navigation li a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600px;
+  color: white;
+  transition: 0.3s ease;
+}
+#navigation li a:hover, /* this is made to make a hover effect*/
+#navigation li a.active
+{
+  color: black;
+}
+#navigation li a.active::after,
+#navigation li a:hover ::after{  /*this is used to underline the navbar we are in */
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: black ;
+  bottom: -4px;
+  left: 20px;
+  position: absolute; /* used to position an element to its closest containing block*/
+}
+#pic{
+  background-image: url("background.jpg");
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 25% right 0;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* helps to align flex items to the start of a flex container*/
+  justify-content: center;
+}
+#pic button:hover{ 
+  background-color: aqua;
+  color: black;
+  cursor: pointer;
+}
+#pic h4{
+  padding-bottom: 15px;
+
+}
+ #pic h1{
+  color:darkcyan;
+  font-size: 30px;
+  
+ }
+ #pic button{
+  background-color:black;
+  color:white;
+  border:0; 
+
+ }
+ #shopping{
+  text-align: center;
+ }
+ #shopping .pro-container{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap; /* wrapping flex items onto multiple lines*/
+
+ }
+ #shopping .product{
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid whitesmoke;
+  border-radius: 25px;
+  cursor: pointer; /* creating cursor as a pointer that helps to point like finger*/
+  box-shadow: 20px 20px 30px rgb(216, 208, 208);
+  margin: 15px 0;
+  transition: 0.2s ease;
+  position: relative;
+ }
+ #shopping .product:hover{ /* using hover effect*/
+  box-shadow: 20px 20px 30px rgb(138,121,93);
+ }
+ #shopping.product image{
+width: 100%;
+border-radius: 20px;
+}
+
+ #shopping .product .des{
+  text-align: start;
+  padding: 10px 0;
+ }
+.des span{
+  color:red;
+  font-size: 12px;
+ }
+
+ .des h4{
+ padding-top: 7px ;
+ color:green;
+ font-size: 14px;
+ font-weight:700 ;
+}
+.des .star i{
+font-size: 12px; 
+color: rgb(243, 181, 25);
+} 
+#shopping.product.Cart{
+ width: 40px;
+ height: 40px;
+ line-height: 40px;
+ border-radius: 50px;
+ background-color: rgb(195, 243, 183);
+ font-weight: 500;
+ color:silver;
+ border: 1px solid whitesmoke;
+ bottom:20px ;
+ right: 10px;
+ position: absolute; /* used to position an element to its closest containing block*/
+
+}
+#banner{
+  display: flex;
+  flex-direction:column ;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("bg\ lense.jpg");
+  width: 100%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+}
+#banner h4{
+  color: green;
+  font-size: 16px;
+}
+#banner h2{
+  color: green;
+  font-size: 30px;
+  padding: 10px 0;
+}
+#banner h2 span{
+  color:deeppink;
+}
+#banner button:hover{ /* using hover effect on button*/
+  background-color: darkcyan ;
+  color: white;
+}
+#final{
+  background-color: rgb(203, 195, 227);
+  display: flex;
+  width: 100%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  flex-direction:column ;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
